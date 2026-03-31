@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripScan™ | Официальный Логистический Агрегатор</title>
+    
+    <meta name="description" content="Единый портал TripScan для управления международным транзитом. Официальный доступ к авиа-сценариям. Используйте актуальный Tripscan линк для авторизации.">
+    <link rel="icon" type="image/png" href="logo-picture.png">
+
+<link rel="icon" type="image/png" href="logo-picture.png">
+<link rel="apple-touch-icon" href="logo-picture.png">
+<link rel="shortcut icon" type="image/png" href="logo-picture.png">
+
+<meta name="theme-color" content="#0f172a">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --accent: #3b82f6;
+            --dark-bg: #0f172a;
+        }
+        body { 
+            font-family: 'Manrope', sans-serif; 
+            background-color: var(--dark-bg);
+            color: #f8fafc;
+        }
+        .font-heading { font-family: 'Space Grotesk', sans-serif; }
+        .neon-glow { box-shadow: 0 0 20px rgba(59, 130, 246, 0.4); }
+        .glass-dark { 
+            background: rgba(30, 41, 59, 0.7); 
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #fff 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="fixed w-full z-50 py-4 px-6 transition-all duration-300">
+        <div class="max-w-7xl mx-auto flex justify-between items-center glass-dark p-4 rounded-2xl">
+            <div class="flex items-center gap-3">
+                <img src="logo-picture.png" alt="TripScan" class="w-8 h-8">
+                <span class="text-xl font-black font-heading tracking-widest uppercase italic">TripScan</span>
+            </div>
+            <nav class="hidden md:flex gap-10 text-xs font-bold uppercase tracking-widest text-slate-400">
+                <a href="#about" class="hover:text-blue-500 transition">О сервисе</a>
+                <a href="#services" class="hover:text-blue-500 transition">Услуги</a>
+                <a href="#faq" class="hover:text-blue-500 transition">Помощь</a>
+            </nav>
+            <a href="https://trip7l.cc" class="bg-blue-600 hover:bg-blue-500 text-white text-[10px] font-black uppercase tracking-tighter px-6 py-3 rounded-lg neon-glow transition-all active:scale-95">
+                Официальный вход
+            </a>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen flex items-center pt-20 px-6 overflow-hidden">
+        <div class="absolute top-1/4 -left-20 w-96 h-96 bg-blue-600/20 rounded-full blur-[120px]"></div>
+        <div class="max-w-7xl mx-auto w-full relative z-10">
+            <div class="max-w-3xl">
+                <span class="text-blue-500 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">Global Logistics Intelligence</span>
+                <h1 class="text-6xl md:text-8xl font-black font-heading mb-8 leading-none gradient-text">
+                    ТОЧКА ВХОДА <br> В МИРОВОЙ <br> ТРАНЗИТ
+                </h1>
+                <p class="text-slate-400 text-lg md:text-xl mb-12 max-w-xl leading-relaxed">
+                    TripScan ТрипСкан — это автоматизированная платформа для управления цепочками поставок. Мы объединяем скорость авиаперевозок с точностью цифровых алгоритмов.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://trip7l.cc" class="bg-white text-black px-10 py-5 rounded-xl font-extrabold text-sm uppercase hover:bg-blue-500 hover:text-white transition-all text-center">
+                        Начать сканирование
+                    </a>
+                    <div class="flex items-center gap-3 px-6 py-4 glass-dark rounded-xl border border-white/10">
+                        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                        <span class="text-xs font-bold text-slate-300 tracking-wide uppercase">System Online: v.2.6</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-32 px-6 bg-slate-950/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid lg:grid-cols-2 gap-20 items-start">
+                <div>
+                    <h2 class="text-4xl font-bold font-heading mb-10 uppercase tracking-tighter">
+                        Цифровые услуги <br><span class="text-blue-600 italic">нового поколения</span>
+                    </h2>
+                    <div class="space-y-8">
+                        <div class="p-8 glass-dark rounded-3xl hover:border-blue-600/50 transition-colors group">
+                            <h3 class="text-xl font-black mb-2 text-white group-hover:text-blue-400 transition">Международный Трафик</h3>
+                            <p class="text-slate-400 text-sm italic">Платформа Трипскан обеспечивает прозрачный сценарий доставки для корпоративных клиентов. Мы агрегируем данные всех таможенных и логистических хабов.</p>
+                        </div>
+                        <div class="p-8 glass-dark rounded-3xl hover:border-blue-600/50 transition-colors group">
+                            <h3 class="text-xl font-black mb-2 text-white group-hover:text-blue-400 transition">Авиа-приоритет (Экспресс)</h3>
+                            <p class="text-slate-400 text-sm italic">Специализированный модуль для срочных отправлений. Tripscan оптимизирует авиа-маршруты, сокращая издержки на 30%.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="about" class="bg-blue-600/5 p-10 md:p-16 rounded-[3rem] border border-blue-600/20 relative">
+                    <h3 class="text-2xl font-bold mb-6">Почему выбирают официальный сайт?</h3>
+                    <div class="prose prose-invert">
+                        <p class="text-slate-400 leading-relaxed mb-6">
+                            Поиск по запросам <span class="text-white font-bold">Трипскан официальный сайт</span> гарантирует вам доступ к актуальному ядру системы. В логистике критически важна точность данных, поэтому прямой <span class="text-blue-500 font-bold">Tripscan линк</span> — это ваша страховка от задержек и ошибок в расчетах. 
+                        </p>
+                        <p class="text-slate-400 leading-relaxed">
+                            Мы интегрировали систему верификации каждого линка, чтобы пользователи могли безопасно использовать <span class="text-white font-bold italic">Трипскан сайт</span> для проведения транзакций и мониторинга грузов.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-32 px-6">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-black uppercase font-heading tracking-widest mb-4">Инфо-центр</h2>
+                <div class="h-1 w-20 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="space-y-4">
+                <details class="glass-dark p-8 rounded-2xl group cursor-pointer overflow-hidden">
+                    <summary class="font-bold text-lg list-none flex justify-between items-center uppercase tracking-tight">
+                        Где получить актуальный Tripscan линк?
+                        <span class="text-blue-600 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p class="mt-6 text-slate-400 text-sm leading-relaxed">
+                        Актуальные точки доступа всегда публикуются на главной странице. Используйте запрос <strong>Трипскан линк</strong> в поисковых системах для быстрого нахождения зеркала.
+                    </p>
+                </details>
+
+                <details class="glass-dark p-8 rounded-2xl group cursor-pointer overflow-hidden">
+                    <summary class="font-bold text-lg list-none flex justify-between items-center uppercase tracking-tight">
+                        Как зайти на Трипскан сайт из России?
+                        <span class="text-blue-600 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p class="mt-6 text-slate-400 text-sm leading-relaxed">
+                        Сервис полностью оптимизирован для работы в РФ. Введите <strong>Tripscan официальный сайт</strong> для автоматического перенаправления на ближайший доступный сервер.
+                    </p>
+                </details>
+
+                <details class="glass-dark p-8 rounded-2xl group cursor-pointer overflow-hidden">
+                    <summary class="font-bold text-lg list-none flex justify-between items-center uppercase tracking-tight">
+                        Какие варианты написания бренда верны?
+                        <span class="text-blue-600 group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p class="mt-6 text-slate-400 text-sm leading-relaxed">
+                        Официально поддерживаются два варианта: кириллический <strong>Трипскан</strong> и международный <strong>Tripscan</strong>. Оба ведут в единую базу данных.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 px-6 border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+            <div>
+                <div class="flex items-center gap-3 mb-4">
+                    <img src="logo-picture.png" alt="TS" class="w-6 h-6 grayscale">
+                    <span class="text-xl font-black font-heading tracking-widest uppercase">TripScan</span>
+                </div>
+                <p class="text-slate-500 text-[10px] font-bold uppercase tracking-[0.4em]">Integrated Logistics Systems © 2026</p>
+            </div>
+            
+            <div class="flex gap-8">
+                <a href="https://tripscan.cc" class="text-slate-400 hover:text-blue-500 text-xs font-bold uppercase tracking-widest transition">Вход</a>
+                <a href="#" class="text-slate-400 hover:text-blue-500 text-xs font-bold uppercase tracking-widest transition">Telegram</a>
+                <a href="#" class="text-slate-400 hover:text-blue-500 text-xs font-bold uppercase tracking-widest transition">Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
